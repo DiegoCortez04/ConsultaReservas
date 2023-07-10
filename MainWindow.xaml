@@ -7,14 +7,38 @@
         mc:Ignorable="d"
         Title="Lona" Height="450" Width="800">
     <Grid>
-        <Button x:Name="BtnConsultar" Content="Consultar" HorizontalAlignment="Left" Margin="455,54,0,0" VerticalAlignment="Top" Background="#FF3A62D7" Height="50" Width="130" BorderBrush="{x:Null}" Foreground="White" FontFamily="Cascadia Code"/>
-        <Button x:Name="BtnAceptar" Content="Confirmar Reserva" HorizontalAlignment="Center" Margin="0,356,0,0" VerticalAlignment="Top" Background="#FF3A62D7" Foreground="White" FontFamily="Cascadia Code" Height="20" Width="140" Click="BtnAceptar_Click"/>
-        <Button x:Name="BtnModificar" Content="Modificar Reserva" HorizontalAlignment="Center" Margin="0,381,0,0" VerticalAlignment="Top" Background="#FF3A62D7" FontFamily="Cascadia Code" Foreground="White" Height="20" Width="140"/>
-        <Button x:Name="BtnCancelarR" Content="Cancelar Reserva" HorizontalAlignment="Center" Margin="0,406,0,0" VerticalAlignment="Top" Background="#FF3A62D7" FontFamily="Cascadia Code" Foreground="White" Width="140"/>
-        <Label Content="No. de Reserva:" HorizontalAlignment="Left" Margin="94,66,0,0" VerticalAlignment="Top"/>
-        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="94,97,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BtnConsultar" Content="Consultar" HorizontalAlignment="Left" Margin="450,66,0,0" VerticalAlignment="Top" Background="#FF3A62D7" Height="26" Width="130" BorderBrush="{x:Null}" Foreground="White" FontFamily="Cascadia Code"/>
+        <Button x:Name="BtnAceptar" Content="Confirmar Reserva" HorizontalAlignment="Center" Margin="0,356,0,0" VerticalAlignment="Top" Background="#FF3A62D7" Foreground="White" FontFamily="Cascadia Code" Height="20" Width="160" Click="BtnAceptar_Click"/>
+        <Button x:Name="BtnModificar" Content="Modificar Reserva" HorizontalAlignment="Center" Margin="0,381,0,0" VerticalAlignment="Top" Background="#FF3A62D7" FontFamily="Cascadia Code" Foreground="White" Height="20" Width="160"/>
+        <Button x:Name="BtnCancelarR" Content="Cancelar Reserva" HorizontalAlignment="Center" Margin="0,406,0,0" VerticalAlignment="Top" Background="#FF3A62D7" FontFamily="Cascadia Code" Foreground="White" Width="160"/>
+        <Label Content="No. de Reserva:" HorizontalAlignment="Left" Margin="89,62,0,0" VerticalAlignment="Top" Height="34"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="89,129,0,0" VerticalAlignment="Top"/>
         <Image HorizontalAlignment="Left" Height="434" VerticalAlignment="Center" Width="80" Source="/Rectangulo.png" Stretch="Fill"/>
         <Label x:Name="LblConsultaR" Content="Consulta de Reserva" HorizontalAlignment="Left" Margin="94,10,0,0" VerticalAlignment="Top" Foreground="#FF3A62D7" FontFamily="Cascadia Mono" FontSize="24"/>
+        <Label Content="Apellido:" HorizontalAlignment="Left" Margin="89,164,0,0" VerticalAlignment="Top"/>
+        <Label Content="Edad:" HorizontalAlignment="Left" Margin="89,199,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="215,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="161,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <Label Content="INE:" HorizontalAlignment="Left" Margin="89,234,0,0" VerticalAlignment="Top"/>
+        <Label Content="Teléfono:" HorizontalAlignment="Left" Margin="89,269,0,0" VerticalAlignment="Top"/>
+        <Label Content="Correo:" HorizontalAlignment="Left" Margin="89,304,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="161,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="161,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="161,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="161,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="161,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <Label Content="Tipo de servicio:" HorizontalAlignment="Left" Margin="387,129,0,0" VerticalAlignment="Top"/>
+        <Label Content="Hora de llegada del vuelo:" HorizontalAlignment="Left" Margin="387,164,0,0" VerticalAlignment="Top"/>
+        <Label Content="Hora de llegada al hotel:" HorizontalAlignment="Left" Margin="387,199,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="570,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <Label Content="No. de pasajeros:" HorizontalAlignment="Left" Margin="387,234,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nombre del conductor:" HorizontalAlignment="Left" Margin="387,269,0,0" VerticalAlignment="Top"/>
+        <Label Content="Estatus del servicio:" HorizontalAlignment="Left" Margin="387,304,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="570,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="570,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="570,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="570,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="570,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
 
     </Grid>
 </Window>
